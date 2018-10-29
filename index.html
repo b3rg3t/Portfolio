@@ -4,130 +4,185 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is the portfolio of David Berg, a junior Front End Developer from Sweden. He is a 27 year old dude that loves to travel.">
     <title>Portfolio David Berg</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/myStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/form.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/about.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/portfolio.css"/>
+    <link rel="canonical" href="#">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head> 
     <body>
-<!-- NAVIGATIONBAR -->
+<!-- NAVIGATIONBAR -->  
 <nav>
-<div class="backround-image">
-    <div class="nav-bar">
-        <div class="logo">
-            <a href="index.html">
-                <img class="logo-pic" src="pictures/globe_db.png" alt="David Berg globe-logo">
-            </a>
-        </div>
-                <div class="menu">
-                        <a class="menu-btn" href="#">Home</a>
-                        <a class="menu-btn" href="#">About</a>
-                        <a class="menu-btn" href="#">Portfolio</a>
-                        <a class="menu-btn" href="#">Contact</a>
-                </div>
-    </div>
+<div class="background-image">  
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    
+</div>
+    
 
     <!-- MAIN CONTENT -->
-<main>
+
 
     <div class="main">
         <div>
-                <a class="vendetta" href="#"><img class="profile-pic" src="/pictures/profile.jpg" alt="Profilbild på David Berg"></a>
-            </div>
+            <img class="profile-pic" src="/pictures/profil.jpg" alt="Profilbild på David Berg">
+        </div>
+
+        <header>
             <div class="header">
-                    <div class="header-container">
+                    <div class="typewriter">
                         <h1>David Berg</h1>
-                        <p>Front End Developer</p>
                     </div>
+                    <p>Front End Developer</p>
             </div>
+        </header>
+
             <div class="connect-socialmedia">
-                    <h1> <a href="https://www.facebook.com/"><i class="fab fa-facebook p-i"></i></a> </h1>
-                    <h1> <a href="https://www.instagram.com"><i class="fab fa-instagram p-i"></i></a> </h1>
-                    <h1> <a href="https://github.com/"><i class="fab fa-git-square p-i"></i></a> </h1>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook p-i"></i></a>
+                 <a href="https://www.instagram.com"><i class="fab fa-instagram p-i"></i></a>
+                 <a href="https://github.com/"><i class="fab fa-git-square p-i"></i></a>
             </div>  
     </div>
-
-        <div class="arrow">
-            <a href="#" id="arrow-down">&#11147;</a>
-        </div>
-    </div>
-</main>
+</div>
 </nav>
 
 
 <!-- ABOUT -->
-    <div class="about"> 
-        <img id="laptop" src="pictures/laptop.png" alt="bild på laptop">
-        <h2>ABOUT</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed volutpat lorem. Proin ligula lorem, laoreet quis pharetra eget, blandit vitae odio. Sed id ligula faucibus, efficitur nisl et, ultricies orci. Donec eros nulla, dictum eget odio ut, cursus convallis neque. Curabitur facilisis elit eu venenatis elementum. Sed ac sagittis mi, a tempus felis. Nullam euismod augue eu metus dignissim, eu venenatis tellus ullamcorper. Donec non augue lacinia nulla aliquam mattis vitae nec dolor. Fusce quis facilisis lectus. Suspendisse fermentum imperdiet vehicula. Praesent suscipit odio orci, et accumsan dolor consequat a. Integer posuere orci a magna maximus, ac interdum tellus sollicitudin. Aliquam sed lacinia nulla.
-            Sed viverra elit ante, at fringilla diam viverra sed. Proin et lectus ac ex finibus consequat. Aenean hendrerit ut elit in varius. Mauris posuere metus quis aliquet egestas. Aenean eu risus malesuada lacus tempus rutrum vel at diam. Nulla dignissim augue accumsan volutpat auctor. Donec ac sapien ullamcorper, convallis lorem quis, euismod erat. Quisque maximus sem nibh, et consectetur ipsum sollicitudin eu. Sed vehicula non quam vel fermentum. Cras sed ante semper, condimentum lorem vitae, imperdiet nisl. Duis et finibus nisi, sit amet imperdiet lacus. Proin sed condimentum ex. Maecenas sollicitudin eget quam in imperdiet.
-            Praesent elementum molestie vehicula. Cras ligula nisi, molestie in tincidunt eu, maximus ac augue. Vestibulum malesuada fringilla metus eget hendrerit. Aliquam non orci finibus, tristique purus vulputate, feugiat nunc. Nunc at risus pretium velit gravida lobortis in gravida arcu. Nunc sit amet arcu sed felis lacinia porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam a urna ex.
-            Nulla facilisi. Duis bibendum lacinia nunc. Donec volutpat eros a justo consectetur, a posuere neque porta. Ut pellentesque lacus vitae ipsum iaculis sodales. Vivamus elementum dui eget neque sagittis, sit amet ultricies augue finibus. Vivamus ac justo felis. Maecenas egestas feugiat leo, pretium tincidunt ante elementum eget. In hac habitasse platea dictumst. Vestibulum ut suscipit sapien. Nunc eget consectetur quam. Phasellus pellentesque mauris diam. Morbi bibendum leo in molestie imperdiet.
-            Sed facilisis non lectus nec laoreet. Nunc rhoncus sem faucibus, rutrum mi id, posuere quam. Vestibulum finibus dapibus elementum. Etiam quis libero odio. Aliquam convallis lacus vitae tellus pellentesque accumsan. Cras euismod risus in arcu gravida, sed sodales lacus sollicitudin. Phasellus faucibus odio non elit finibus, eu accumsan justo dictum. Integer ultricies dapibus elementum. Nulla sed turpis massa. Maecenas varius purus ut tellus egestas ornare. Morbi et nibh at augue sagittis venenatis non in erat.
-        </p>
-    </div>
-    
-<!-- PORTFOLIO -->
-    <div class="portfolio">
-        <div class="image">
-            <h2>PORTFOLIO</h2>
-            <!-- Slideshow container -->
-<div class="slideshow-container">
-
+        <!-- SLIDESHOW CONTAINER -->
+<main>
+<div id="about"></div>
+<div class="about">
+<div class="container1">
+    <div class="slideshow-container">
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
-          <img src="pictures/projectXY.jpg" style="width:100%">
-          <div class="text">Caption Text</div>
+          <img class="slideshow-image" src="/pictures/Mountain.jpg" alt="">
+          <div class="text-slide">Trolltunga, Norway</div>
         </div>
       
         <div class="mySlides fade">
           <div class="numbertext">2 / 3</div>
-          <img src="/pictures/sott_elegant.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
+          <img class="slideshow-image" src="pictures/Malaysia.jpg" alt="">
+          <div class="text-slide">Cameron Highlands, Malaysia</div>
         </div>
       
         <div class="mySlides fade">
           <div class="numbertext">3 / 3</div>
-          <img src="/pictures/landingpage_kyh.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
+          <img class="slideshow-image" src="pictures/Valmo.jpg" alt="">
+          <div class="text-slide">Gotland, Sweden</div>
         </div>
       
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
+    </div>
+</div>
+        
       
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div>
+ 
+    <div class="container2">
+        <h2>ABOUT</h2>
+        <p>
+            <b>Hi! My name is David Berg and I'm a junior Front end Developer.</b>
+            <br>
+            <br>
+            I going to a Front End Developer program at <a href="www.kyh.se">KYH</a> in Stockholm, Sweden for 2 years. I started the program in September 2018 and will done in june 2020.
+            <br>
+            <br>
+            Things I like to do:
+        </p>
+            <ul>
+                <li>Gym</li>
+                <li>Food</li>
+                <li>Travel</li>
+            </ul>
+    </div>  
+</div> 
+</main>
+    
+<!-- PORTFOLIO -->
+<div id="portfolio">
+    <h2>PORTFOLIO</h2>
+    <p>Here are som small previews of the work that I've done.</p>
+<div class="portfolio-content">
+    <div class="container pic1">
+            <img src="/pictures/sott_elegant.jpg" alt="KYH" class="image" style="width:100%">
+            <p>Project 1. Website bakery</p>
+            <div class="middle">
+                <div class="text-port">Sött & Elegant</div>
+            </div>
+    </div>
+    <div class="container pic2">
+            <img src="/pictures/landingpage_kyh.jpg" alt="KYH" class="image" style="width:100%">
+            <p>Project 2. Landinng page KYH</p>
+            <div class="middle">
+                <div class="text-port">Landing Page KYH</div>
+            </div>
+    </div>
+        <div class="container pic3">
+            <img src="/pictures/projectXY.jpg" alt="KYH" class="image" style="width:100%">
+            <p>Project 3. Landing page metal-band</p>
+            <div class="middle">
+                <div class="text-port">Project XY</div>
+            </div>
         </div>
+       
     </div>
+</div>
 
-<!-- CONTACT -->
-    <div class="contact">
-        <h2>CONTACT </h2>
-        <form action="contact_me">
-            <label for="">Name</label>
-            <input type="text">
-            <label for="">Email</label>
-            <input type="email" name="" id="">
+
+<!-- FORM -->
+<section>
+<div class="contact-section">
+    <div class="contact" id="contact">
+        <div class="con">
+                <h2>CONTACT ME:</h2>
+    <p>Fill in form to contact me.</p>
+        <form action="contactMe">
+            <div class="underLine">
+                <input id="firstName"  class="formInput" type="text" placeholder="First name" name="firstName" value="" required>
+            </div>
+            <div class="underLine">
+                <input id="lastName" class="formInput"  type="text" placeholder="Surname" name="lastName" value="" required>
+            </div>
+            <div class="underLine">
+                <input id="email" class="formInput" type="text" placeholder="Email" name="email" value="" required>
+            </div>
+            <div>
+                <textarea name="comment" placeholder="Your message" rows="1" cols="200"></textarea>
+            </div>
+            <button class="myButton" onclick="">Send</button>
         </form>
+        </div>
+        <div class="con" id="cont">
+                <img src="/pictures/Vietnam.jpg" id="contact-pic" alt="pic">
+                <p>Thumb up, Vietnam</p>
+            </div>
     </div>
+</div>
+</section>
 <!-- FOOTER -->
 <footer>
-    <div class="footer">
+    <div class="footer" id="footer">
             <div class="connect-socialmedia">
-                    <h1> <a href="https://www.facebook.com/"><i class="fab fa-facebook p-i"></i></a> </h1>
-                    <h1> <a href="https://www.instagram.com"><i class="fab fa-instagram p-i"></i></a> </h1>
-                    <h1> <a href="https://github.com/"><i class="fab fa-git-square p-i"></i></a> </h1>
-        </div>  
+                <div class="move-contact">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook p-i"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram p-i"></i></a>
+                <a href="https://github.com/"><i class="fab fa-git-square p-i"></i></a>
+                </div>
+            </div>  
         <p id="copywright"> &#xa9; Copyright 2018 </p>
     </div>
 </footer>

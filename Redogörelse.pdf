@@ -1,0 +1,39 @@
+Redogörelse.
+
+HTML 5 och CSS 3.
+Jag har använt mig av väl strukturerad kod i HTML genom att ha följt syntaxen
+för HTML 5 och använt mig av semantiska taggar. Dom semantiska taggarna underlättar
+för personer med en funktionsnedsättning att enklare kunna förstå strukturen av min
+kod när dom exempelvis använder sig av screenreaders. Jag har döpt mina class-namn 
+och id-namn till så pass relevanta namn som möjligt för att på ett så enkelt sätt 
+som möjligt kunna koppla vad allt i mina CSS-dokument kontrollerar. Jag har även 
+gjort flera olika CSS dokument för att på ett enklare sätt kunna hitta vad det är 
+man vill kontrollera. Jag har ett "main.css" där ja kan kontrollera <nav>/<footer> och
+<main> sektionen av min sida. Sen har jag egna css:er för varje sektion i min sida,
+ja har totalt 4 css:er, det är main.css, about.css, portfolio.css och form.css. 
+På detta sätt hittar ja enkelt till varje del på min sida och kan enkelt kontrollera
+det ja vill.
+
+Responsiv Design.
+Ett av huvudsyftena för min sida har varit att den ska få en responsiv design och 
+anpassa sig efter olika skärmstorlekar, detta har ja uppnått genom att använda mig 
+av flexbox. Flexbox är ett hjälpmedel för att på ett enkelt sätt kunna kunna placera
+sitt innehåll i olika <div>-taggar för att på så sätt lättare få sitt innehåll att 
+anpassa sig efter skärmstorlekar på ett snyggt och effektiv. Den responsiva designen blir
+allt viktigare med tiden på grund av att vi använder fler olika sorts apparater att läsa 
+websidor på som har olika stora skrämstorlekar. Förr använde man sig bara av datorskärmar
+som har någorlunda samma storlek. I dagens samhälle surfar vi på webben med telefoner, tv,
+touchpads m.m. 
+
+Sökmotoroptimering
+För Sökmotoroptimeringen på min sida har jag använt mig av <h1>-tagg i början av sidan
+för att beskriva min sidas innehåll vilket är mig själv, David Berg. 
+
+
+
+
+Länkar till använda JavaScript:
+Nav-bar:
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+Slideshow:
+https://www.w3schools.com/howto/howto_js_slideshow.asp

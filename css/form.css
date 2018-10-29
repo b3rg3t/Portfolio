@@ -1,0 +1,83 @@
+.contact-section{
+    border-top: 2px solid black;
+    padding: 20px 10% 40px 10%;
+}
+.contact{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding:30px 0 30px 0;
+}
+.con{
+    margin: 10px;
+    flex: 1 1 400px;
+}
+#cont{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+#contact-pic{
+    width: 100%;
+    height: 444px;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    padding-bottom: 5px;
+}
+input[type=text] {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    width: calc(100%  - 100px);
+    padding: 15px;
+    margin: 10px 0 10px 0px;
+    display: inline-block;
+    background-color: white;
+    border: 0px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: 'K2D', sans-serif;
+    border-bottom: 1px solid rgb(0, 0, 0);
+ }
+ textarea {
+    border: 0px;
+    background: white;
+    font-size: 1rem;
+    width: calc(100%  - 100px);
+    padding: 15px;
+    margin: 10px 0 10px 0px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'K2D', sans-serif;
+    border-bottom: 1px solid rgb(0, 0, 0);  
+}
+input[type=text]:focus, textarea:focus {
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.myButton {
+    color: rgb(255, 255, 255); 
+    font-size: 22px; 
+    line-height: 22px; 
+    padding: 7px; 
+    text-decoration: none; 
+    text-transform: none; 
+    background: #161212;
+    box-shadow: rgba(0, 0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(255, 255, 255); display: inline-block;
+}
+    
+.myButton:hover {
+    background: rgba(100, 100, 100, 0.397); 
+}
+    
+.myButton:active {
+    background: #161212; 
+}
+.underline{
+    padding-left: 20px;
+    
+}
