@@ -10,7 +10,7 @@
   height: 100%;
   padding: 40px 10% 40px 10%;
 }
-
+/* Control position of the 2 containers with flex */
 .container1{
   flex: 1 1 400px;
   width: 50%;
@@ -33,6 +33,7 @@
 .slideshow-image {
     height: 300px;
     width: 100%;
+    object-fit: cover;
 }
   
   /* Next & previous buttons */
@@ -87,10 +88,12 @@
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
   }
   
   .active, .dot:hover {
     background-color: #717171;
+    border: 1px solid white;
   }
   
   /* Fading animation */
@@ -119,5 +122,8 @@
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
-
-  
+  @media screen and (max-width: 600px) {
+    .slideshow-image {
+       height: 200px;
+    }
+  }

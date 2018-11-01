@@ -22,19 +22,6 @@ h1{
     margin: 0 auto;
 }
 
-
-/* KEYFRAMES */
-@keyframes smooth {
-    0% {
-      padding: 0 0;
-      opacity: .1;
-    }
-  
-    100% {
-      padding: 100px 0;
-      opacity: 1;
-    }
-  }
 @keyframes skew {
     0% {
         -moz-transform: scale(0.1);
@@ -79,11 +66,12 @@ h1{
       text-align: left;
     }
   }
-/* Add a black background color to the top navigation */
+/* Place of navbar and colors of backround */
 .topnav {
-    background-color: rgba(51, 51, 51, 0.781);
+    background-color: rgba(51, 51, 51, 0);
     overflow: hidden;
     display: flex;
+    justify-content: center;
 }
 
 /* Style the links inside the navigation bar */
@@ -93,13 +81,14 @@ h1{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(252, 252, 252);
 }
 
 
@@ -107,6 +96,7 @@ h1{
 .topnav .icon {
     display: none;
 }
+/* Main content control */
 .main { 
     margin: auto;
     margin-top: 2%;         
@@ -133,8 +123,8 @@ h1{
     justify-content: space-between;
     margin: 0 auto;
 }
-
-.p-i { /*Size of socialmedia icons*/
+/*Size of socialmedia icons*/
+.p-i { 
     font-size: 3rem;
     color: white;
     padding: 0 5px 2px 5px; 
@@ -148,26 +138,28 @@ h1{
   .p-i:hover {
     transform: scale(1.2);
 }
-.header {
+/* Control of main content text */
+header {
     color: white;
-    font-size: 4rem;
+    font-size: 4em;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-family: 'Oswald', sans-serif;
-    margin: 0 0 0 0;
+    margin: 0 auto;
 }
 
 /* FOOTER */
 .footer {
     font-size: 1.2em;
     color: rgb(255, 255, 255);
-    background-color: rgba(51, 51, 51, 0.781)   ;
+    background-image: url(/pictures/hardwood-leaves-lumber-139312.jpg);
     text-align: center;
     border-top: 2px solid rgb(8, 7, 7);
     height: 200px;
     width: 100%;
     padding-top: 40px;
 }
-.move-contact { /*Move the 3 boxes with info*/
+/*Move the 3 boxes with info*/
+.move-contact { 
     display: flex;
     align-content: center;
     margin: auto;
@@ -178,8 +170,7 @@ h1{
     padding: 5px;
     text-shadow: 2px 2px 2px #000000;
 }
-@media screen and (max-width:800px){
-    .profile-pic{
-      margin: 20px;
-    }
+@media only screen and (max-width: 600px) {
+    .topnav a {font-size: 16px}
   }
+
